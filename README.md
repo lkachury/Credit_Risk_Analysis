@@ -9,7 +9,7 @@ Lastly, two new machine learning models that reduce bias, ```BalancedRandomFores
 
 ## Resources
 ### Data Source 
--  [LoanStats_2019Q1]() csv file
+-  [LoanStats_2019Q1](https://github.com/lkachury/Credit_Risk_Analysis/blob/main/LoanStats_2019Q1.csv) csv file
 
 ### Software
 - Python 3.7.13
