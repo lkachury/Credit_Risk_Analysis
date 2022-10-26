@@ -32,7 +32,7 @@ For all three algorithms, the following have been completed:
     - Undersampling: <br /> ![image](https://user-images.githubusercontent.com/108038989/198144883-84f06d21-e951-42b6-aa67-5db696d15358.png)
   
 3. An imbalanced classification report has been generated:
-    - Oversampling: <br /> ![image](https://user-images.githubusercontent.com/108038989/198144676-fa24c1cb-0ce3-4ae0-abd1-424a52ff76b1.png)
+    - Naive Random Oversampling: <br /> ![image](https://user-images.githubusercontent.com/108038989/198144676-fa24c1cb-0ce3-4ae0-abd1-424a52ff76b1.png)
     - SMOTE Oversampling: <br /> ![image](https://user-images.githubusercontent.com/108038989/198150034-53b51905-8090-44e6-8f1c-3c327810620f.png)
     - Undersampling: <br /> ![image](https://user-images.githubusercontent.com/108038989/198144923-4884e5ad-c08d-4bdb-8fa6-675f91e8187b.png)
 
