@@ -10,6 +10,7 @@ Lastly, two new machine learning models that reduce bias, ```BalancedRandomFores
 ## Resources
 ### Data Source 
 -  [LoanStats_2019Q1](https://github.com/lkachury/Credit_Risk_Analysis/blob/main/LoanStats_2019Q1.csv) csv file
+-  Confusion Matrix: <br /> ![image](https://user-images.githubusercontent.com/108038989/198169556-66c1f869-b852-4fb9-9193-3bd30971643f.png
 
 ### Software
 - Python 3.7.13
@@ -75,7 +76,7 @@ The ```EasyEnsembleClassifier``` algorithm does the following:
 3. An imbalanced classification report has been generated: 
 <br /> ![image](https://user-images.githubusercontent.com/108038989/198166291-a2e81057-c830-4bd2-97d8-9fbc7cb73daf.png)
 
-## Summary (![image](https://user-images.githubusercontent.com/108038989/198169556-66c1f869-b852-4fb9-9193-3bd30971643f.png))
+## Summary 
 The purpose of this analysis was to describe the balanced accuracy, precision, and recall scores for all six machine learning models in order to determine whether they should be used to predict credit risk. 
 
 Accuracy is based on the number of correct predictions as a percentage of the number of observations in the dataset. Accuracy scores range from 0% to 100%, where 100% is a perfect score and 0% is the worst. The accuracy for RandomOversampler=65%, SMOTE=65%, ClusterCentroids=52%, SMOTEENN=65%, BalancedRandomForestClassifier=79%, and EasyEnsembleClassifier=93%. 
