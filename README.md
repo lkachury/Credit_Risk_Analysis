@@ -75,8 +75,22 @@ The ```EasyEnsembleClassifier``` algorithm does the following:
 3. An imbalanced classification report has been generated: 
 <br /> ![image](https://user-images.githubusercontent.com/108038989/198166291-a2e81057-c830-4bd2-97d8-9fbc7cb73daf.png)
 
-## Summary 
-The purpose of this analysis was to describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. 
+## Summary (![image](https://user-images.githubusercontent.com/108038989/198169556-66c1f869-b852-4fb9-9193-3bd30971643f.png))
+The purpose of this analysis was to describe the balanced accuracy, precision, and recall scores for all six machine learning models in order to determine whether they should be used to predict credit risk. 
+
+Accuracy is based on the number of correct predictions as a percentage of the number of observations in the dataset. Accuracy scores range from 0% to 100%, where 100% is a perfect score and 0% is the worst. The accuracy for RandomOversampler=65%, SMOTE=65%, ClusterCentroids=52%, SMOTEENN=65%, BalancedRandomForestClassifier=79%, and EasyEnsembleClassifier=93%. 
+
+Precision is a measure of how reliable a positive classification as a percentage of the number of true positives (TP) divided by the number of all positives (i.e., the sum of true positives and false positives, or TP + FP). The model which produces zero False Positive then the precision is 1.0. The precision for RandomOversampler, SMOTE, ClusterCentroids, and SMOTEENN were all 1% for high-risk loans and 100% for low-risk loans, BalancedRandomForestClassifier=3% for high-risk loans and 100% for low-risk loans, and EasyEnsembleClassifier=9% for high-risk loans and 100% for low-risk loans. 
+
+
+
+Another way to assess a model's performance is with sensitivity, also called recall. 
+Sensitivity = TP/(TP + FN)
+
+F1 Score
+The F1 score, also called the harmonic mean, can be characterized as a single summary statistic of precision and sensitivity. The formula for the F1 score is the following:
+2(Precision * Sensitivity)/(Precision + Sensitivity)
+A useful way to think about the F1 score is that a pronounced imbalance between sensitivity and precision will yield a low F1 score.
 
 Summarize the results of the machine learning models, 
 
