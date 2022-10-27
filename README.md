@@ -85,13 +85,6 @@ Precision is a measure how reliable the model is at identifying the positive cas
 
 Recall is a measure of how sensitive the model is at identifying how many total positive cases were predicted correctly. It is a percentage of the number of true positives (TP) divided by the sum of true positives (TP) and false negatives (FN). A low recall score is a result of many false negatives, thus the model which produces zero False Negatives has a recall of 100%. The recal for RandomOversampler=61% for high-risk loans and 69% for low-risk loans, SMOTE=63% for high-risk loans and 66% for low-risk loans, ClusterCentroids=60% for high-risk loans and 43% for low-risk loans, SMOTEENN=68% for high-risk loans and 61% for low-risk loans, BalancedRandomForestClassifier=70% for high-risk loans and 87% for low-risk loans, and EasyEnsembleClassifier=92% for high-risk loans and 94% for low-risk loans. 
 
+The F1 score is a harmonic mean and it is a single summary statistic of precision and recall. F1 scores range from 0% to 100%, where 100% is a perfect score and 0% is a model that failed completely. The F1 score for RandomOversampler=2% for high-risk loans and 82% for low-risk loans, SMOTE=2% for high-risk loans and 79% for low-risk loans, ClusterCentroids=1% for high-risk loans and 60% for low-risk loans, SMOTEENN=2% for high-risk loans and 76% for low-risk loans, BalancedRandomForestClassifier=6% for high-risk loans and 93% for low-risk loans, and EasyEnsembleClassifier=16% for high-risk loans and 97% for low-risk loans. 
 
-
-F1 Score
-The F1 score, also called the harmonic mean, can be characterized as a single summary statistic of precision and sensitivity. The formula for the F1 score is the following:
-2(Precision * Sensitivity)/(Precision + Sensitivity)
-A useful way to think about the F1 score is that a pronounced imbalance between sensitivity and precision will yield a low F1 score.
-
-Summarize the results of the machine learning models, 
-
-There is a recommendation on which model to use, or there is no recommendation with a justification.
+Based on the summary above, the two Ensemble Classifiers performed better than the four Resampling Models. The EasyEnsembleClassifier was the better performing machine learning model based on its accuracy, precision, and recall scores and this is the recommended model that should be used to predict credit risk.
