@@ -15,7 +15,7 @@ Lastly, two new machine learning models that reduce bias, ```BalancedRandomFores
 
 ### Data Source 
 -  [LoanStats_2019Q1](https://github.com/lkachury/Credit_Risk_Analysis/blob/main/LoanStats_2019Q1.csv) csv file
--  Confusion Matrix: <br /> ![image](https://user-images.githubusercontent.com/108038989/198169556-66c1f869-b852-4fb9-9193-3bd30971643f.png)
+-  Confusion Matrix: <br /> ![image](https://user-images.githubusercontent.com/108038989/198177415-c7df5812-54f3-41c0-920c-1a9c5a13345f.png)
 
 ## Results
 ### Deliverable 1: Use Resampling Models to Predict Credit Risk
