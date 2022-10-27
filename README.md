@@ -50,7 +50,7 @@ The combinatorial ```SMOTEENN``` algorithm does the following:
 <br /> ![image](https://user-images.githubusercontent.com/108038989/198144975-acbda87c-a55f-4c7d-986e-d024c87ec47a.png)
 
 ### Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
-Using the ```imblearn.ensemble``` library, two different ensemble classifiers, ```BalancedRandomForestClassifier``` and ```EasyEnsembleClassifier```, will be trained and compared to predict credit risk and evaluate each model. Using both algorithms, the dataset will be resample, the count of the target classes will be viewed, the ensemble classifier will be trained, the balanced accuracy score will be calculated, a confusion matrix will be generate, and a classification report will be generated. The completed credit_risk_ensemble Jupyter Notebook can be referenced [here]().
+Using the ```imblearn.ensemble``` library, two different ensemble classifiers, ```BalancedRandomForestClassifier``` and ```EasyEnsembleClassifier```, will be trained and compared to predict credit risk and evaluate each model. Using both algorithms, the dataset will be resample, the count of the target classes will be viewed, the ensemble classifier will be trained, the balanced accuracy score will be calculated, a confusion matrix will be generate, and a classification report will be generated. The completed credit_risk_ensemble Jupyter Notebook can be referenced [here](https://github.com/lkachury/Credit_Risk_Analysis/blob/main/credit_risk_ensemble.ipynb).
 
 The ```BalancedRandomForestClassifier``` algorithm does the following:
 1. An accuracy score for the model was calculated:
