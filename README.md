@@ -54,20 +54,26 @@ Using the ```imblearn.ensemble``` library, two different ensemble classifiers, `
 
 The ```BalancedRandomForestClassifier``` algorithm does the following:
 1. An accuracy score for the model was calculated:
+<br /> ![image](https://user-images.githubusercontent.com/108038989/198165983-26ef4258-0eaf-4c66-b576-8bf0b2b91999.png)
 
-2. A confusion matrix has been generated:
+2. A confusion matrix has been generated: 
+<br /> ![image](https://user-images.githubusercontent.com/108038989/198166025-54797e2c-08d5-4c68-9813-e1fac5354374.png)
 
 3. An imbalanced classification report has been generated: 
+<br /> ![image](https://user-images.githubusercontent.com/108038989/198166049-e30e99a4-5272-4003-9e6b-7e9ae8fc6099.png)
 
 4. The features are sorted in descending order by feature importance: 
+<br /> ![image](https://user-images.githubusercontent.com/108038989/198166166-d0ff6145-0fbc-4a07-8db8-0fe6f5a3ccfa.png)
 
 The ```EasyEnsembleClassifier``` algorithm does the following:
 1. An accuracy score of the model is calculated:
+<br /> ![image](https://user-images.githubusercontent.com/108038989/198166215-34dd77a5-ab44-4b4d-aa70-57c3b245eb0f.png)
 
-2. A confusion matrix has been generated:
+2. A confusion matrix has been generated: 
+<br /> ![image](https://user-images.githubusercontent.com/108038989/198166256-570175a3-5db7-418f-a7f4-6a0f91a3bd11.png)
 
 3. An imbalanced classification report has been generated: 
-
+<br /> ![image](https://user-images.githubusercontent.com/108038989/198166291-a2e81057-c830-4bd2-97d8-9fbc7cb73daf.png)
 
 ## Summary 
 The purpose of this analysis was to describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. 
