@@ -81,12 +81,11 @@ The purpose of this analysis was to describe the balanced accuracy, precision, a
 
 Accuracy is based on the number of correct predictions as a percentage of the number of observations in the dataset. Accuracy scores range from 0% to 100%, where 100% is a perfect score and 0% is the worst. The accuracy for RandomOversampler=65%, SMOTE=65%, ClusterCentroids=52%, SMOTEENN=65%, BalancedRandomForestClassifier=79%, and EasyEnsembleClassifier=93%. 
 
-Precision is a measure of how reliable a positive classification as a percentage of the number of true positives (TP) divided by the number of all positives (i.e., the sum of true positives and false positives, or TP + FP). The model which produces zero False Positive then the precision is 1.0. The precision for RandomOversampler, SMOTE, ClusterCentroids, and SMOTEENN were all 1% for high-risk loans and 100% for low-risk loans, BalancedRandomForestClassifier=3% for high-risk loans and 100% for low-risk loans, and EasyEnsembleClassifier=9% for high-risk loans and 100% for low-risk loans. 
+Precision is a measure how reliable the model is at identifying the positive cases from the total predicted cases. It is a percentage of the number of true positives (TP) divided by the number of all positives (i.e., the sum of true positives and false positives, or TP + FP). A low precision score is a result of many false positives, thus the model which produces zero False Positives has a precision of 100%. The precision for RandomOversampler, SMOTE, ClusterCentroids, and SMOTEENN were all 1% for high-risk loans and 100% for low-risk loans, BalancedRandomForestClassifier=3% for high-risk loans and 100% for low-risk loans, and EasyEnsembleClassifier=9% for high-risk loans and 100% for low-risk loans. 
+
+Recall is a measure of how sensitive the model is at identifying how many total positive cases were predicted correctly. It is a percentage of the number of true positives (TP) divided by the sum of true positives (TP) and false negatives (FN). A low recall score is a result of many false negatives, thus the model which produces zero False Negatives has a recall of 100%. The recal for RandomOversampler=61% for high-risk loans and 69% for low-risk loans, SMOTE=63% for high-risk loans and 66% for low-risk loans, ClusterCentroids=60% for high-risk loans and 43% for low-risk loans, SMOTEENN=68% for high-risk loans and 61% for low-risk loans, BalancedRandomForestClassifier=70% for high-risk loans and 87% for low-risk loans, and EasyEnsembleClassifier=92% for high-risk loans and 94% for low-risk loans. 
 
 
-
-Another way to assess a model's performance is with sensitivity, also called recall. 
-Sensitivity = TP/(TP + FN)
 
 F1 Score
 The F1 score, also called the harmonic mean, can be characterized as a single summary statistic of precision and sensitivity. The formula for the F1 score is the following:
