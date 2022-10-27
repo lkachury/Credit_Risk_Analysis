@@ -8,14 +8,14 @@ Using the credit card credit dataset from a peer-to-peer lending services compan
 Lastly, two new machine learning models that reduce bias, ```BalancedRandomForestClassifier``` and ```EasyEnsembleClassifier```, will be compared and their performance will be evaluated to determine whether they should be used to predict credit risk.
 
 ## Resources
-### Data Source 
--  [LoanStats_2019Q1](https://github.com/lkachury/Credit_Risk_Analysis/blob/main/LoanStats_2019Q1.csv) csv file
--  Confusion Matrix: <br /> ![image](https://user-images.githubusercontent.com/108038989/198169556-66c1f869-b852-4fb9-9193-3bd30971643f.png)
-
 ### Software
 - Python 3.7.13
 - Conda 22.9.0
 - Jupyter Notebook
+
+### Data Source 
+-  [LoanStats_2019Q1](https://github.com/lkachury/Credit_Risk_Analysis/blob/main/LoanStats_2019Q1.csv) csv file
+-  Confusion Matrix: <br /> ![image](https://user-images.githubusercontent.com/108038989/198169556-66c1f869-b852-4fb9-9193-3bd30971643f.png)
 
 ## Results
 ### Deliverable 1: Use Resampling Models to Predict Credit Risk
